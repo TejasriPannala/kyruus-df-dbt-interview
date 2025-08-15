@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: provider_address_agg
+    description: "Table containing addresses of providers"
+    columns:
+      - name: provider_id
+        description: "Unique identifier for the provider"
+      - name: addresses
+        description: "array of address structs, each containing the address id, street, and rank"
+  - name: provider_types
+    description: "Table containing provider types"
+    columns:
+      - name: provider_id
+        description: "Unique identifier for the provider"
+      - name: ptui
+        description: "provider type unique identifier"

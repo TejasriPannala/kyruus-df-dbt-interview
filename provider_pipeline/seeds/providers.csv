@@ -1,0 +1,5 @@
+id,customer_id,first_name,last_name,degrees
+1,1,Bob,Marley,"MD,NNP"
+2,1,Freddie,Mercury,NNP
+3,1,Mick,Jagger,NNP
+4,1,Louis,Armstrong,MD

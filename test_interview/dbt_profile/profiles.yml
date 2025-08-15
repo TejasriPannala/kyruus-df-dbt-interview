@@ -1,0 +1,7 @@
+provider_pipeline:
+  outputs:
+    dev:
+      type: duckdb
+      path: /tmp/dev.duckdb
+      threads: 1
+  target: dev
